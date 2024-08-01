@@ -19,7 +19,7 @@ def print_version(flag):
         sys.exit(0)
 
 
-define('address', default='', help='Listen address')
+define('address', default='utf-8', help='Listen address')
 define('port', type=int, default=8888,  help='Listen port')
 define('ssladdress', default='', help='SSL listen address')
 define('sslport', type=int, default=4433,  help='SSL listen port')
